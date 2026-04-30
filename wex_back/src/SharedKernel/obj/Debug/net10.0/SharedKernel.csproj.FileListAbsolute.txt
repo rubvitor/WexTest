@@ -1,0 +1,11 @@
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\bin\Debug\net10.0\SharedKernel.deps.json
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\bin\Debug\net10.0\SharedKernel.dll
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\bin\Debug\net10.0\SharedKernel.pdb
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\SharedKernel.AssemblyInfoInputs.cache
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\SharedKernel.AssemblyInfo.cs
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\SharedKernel.dll
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\refint\SharedKernel.dll
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\SharedKernel.pdb
+C:\Users\ruben\OneDrive\Desktop\wex\wex_back\src\SharedKernel\obj\Debug\net10.0\ref\SharedKernel.dll

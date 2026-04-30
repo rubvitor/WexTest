@@ -1,0 +1,13 @@
+services:
+  purchase-api:
+    build:
+      context: .
+      dockerfile: src/Purchase.Api/Dockerfile
+    ports: ["7001:8080"]
+  exchange-rate-api:
+    build:
+      context: .
+      dockerfile: src/ExchangeRate.Api/Dockerfile
+    ports: ["7002:8080"]
+    environment:
+      PurchaseApi__BaseUrl: "http://purchase-api:8080"

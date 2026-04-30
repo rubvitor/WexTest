@@ -1,0 +1,26 @@
+[
+  {
+    "country": "Brazil",
+    "currency": "Real",
+    "effectiveDate": "2025-12-31",
+    "exchangeRate": 5.19
+  },
+  {
+    "country": "Canada",
+    "currency": "Dollar",
+    "effectiveDate": "2025-12-31",
+    "exchangeRate": 1.44
+  },
+  {
+    "country": "Euro Zone",
+    "currency": "Euro",
+    "effectiveDate": "2025-12-31",
+    "exchangeRate": 0.96
+  },
+  {
+    "country": "Japan",
+    "currency": "Yen",
+    "effectiveDate": "2025-12-31",
+    "exchangeRate": 156.22
+  }
+]

@@ -1,0 +1,30 @@
+# WEX Purchase Currency Platform
+
+Production-style .NET 10 solution for the WEX product brief.
+
+## Architecture
+- **Purchase.Api**: stores purchase transactions through EF Core using an in-memory SQL-style database model, publishes domain events, and exposes purchase endpoints.
+- **ExchangeRate.Api**: converts a stored purchase using Treasury Reporting Rates of Exchange rules.
+- **SharedKernel**: domain primitives, money/date value objects, event abstractions.
+- **Tests**: xUnit + FluentAssertions covering domain rules, exchange-rate rules, and EF Core repository behavior.
+
+No external database or server is required. The purchase microservice uses EF Core InMemory with explicit DDD persistence entities, table configuration, and LINQ-to-Entities queries. Seeded exchange-rate JSON remains only as an offline Treasury API fallback.
+
+## Run
+```bash
+dotnet restore
+dotnet test
+dotnet run --project src/Purchase.Api
+dotnet run --project src/ExchangeRate.Api
+```
+
+Purchase API: `https://localhost:7001/swagger`  
+Exchange API: `https://localhost:7002/swagger`
+
+## Main flows
+1. `POST /api/purchases` stores a USD transaction.
+2. `GET /api/purchases/{id}` retrieves it from the EF Core in-memory database.
+3. `GET /api/conversions/{purchaseId}?country=Brazil` returns converted values using the exchange rate active on or before the purchase date and not older than six months.
+
+## Precision
+All money calculations use `decimal`. Input USD amounts and converted amounts are rounded with `MidpointRounding.AwayFromZero`.
