@@ -11,3 +11,5 @@ npm install
 npm start
 ```
 The API URLs are configured in `src/environments/environment.ts`.
+
+# To see the list of elements added with the Id's go to the endpoints using swagger

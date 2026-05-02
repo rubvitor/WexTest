@@ -21,8 +21,8 @@ dotnet run --project src/Purchase.Api
 dotnet run --project src/ExchangeRate.Api
 ```
 
-Purchase API: `https://localhost:7001/swagger`  
-Exchange API: `https://localhost:7002/swagger`
+Purchase API: `https://localhost:49831/swagger`  
+Exchange API: `https://localhost:49854/swagger`
 
 ## Main flows
 1. `POST /api/purchases` stores a USD transaction.
