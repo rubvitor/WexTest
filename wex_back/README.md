@@ -10,6 +10,9 @@ Production-style .NET 10 solution for the WEX product brief.
 
 No external database or server is required. The purchase microservice uses EF Core InMemory with explicit DDD persistence entities, table configuration, and LINQ-to-Entities queries. Seeded exchange-rate JSON remains only as an offline Treasury API fallback.
 
+# VERY IMPORTANT
+The Project could be done using more than one layer. Could be for example 2 folders, one for the service Purchase with .csprojs (layers) Application, Domain, Infrastructure separated. The same with the Project ExachangeRate. The Unit Test folder I decided that it belongs to the whole microservices instead of creating one for each Project. It can help with I have integrations between the projects too.
+
 ## Run
 ```bash
 dotnet restore
