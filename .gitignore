@@ -3,3 +3,4 @@
 ################################################################################
 
 *.vsidx
+/wex_back/.vs/Wex.PurchaseCurrency/DesignTimeBuild/.dtbcache.v2
